@@ -1,0 +1,36 @@
+<!DOCTYPE html> <!-- Cody Puskas 2/12/16 -->
+<html>
+<head>
+<title> My Website!! </title>
+</head>
+<body>
+	<h1> WELCOME!!! </h1>
+	<hr>
+	<p>	
+		Hello, my name is Cody Puskas. I am a student at MVCTC and I am learning HTML 5 at the moment. <br/>
+		The purpose of making this website is to get my name out for colleges and companies. <br/>
+		I want to be successful in life and this could spark my career.
+	</p>
+	<hr>
+	<h1> Educational Goals: </h1> <br/>
+	<p> 
+		I want to futher my knowledge in learning different computer languages so... <br/>
+		2 long term educational goals that I have planned are: <br/>
+		Go to Sinclair Community College and get my general education done. <br/>
+		Transfer to Wright State or Miami and graduate with a Bachelors in <br/>
+		computer science  (WSU) or Sofware Engineering (MU).
+	</p>
+	
+	<hr>
+	<h1> Employment Goals: </h1> <br/>
+	<p>
+		Learning different computer languages will be a benefit my employment goals because <br/>
+		I could be able to make a lot of different programs using different languages. <br/>
+		I want to work for a company that gives me a project to work on. <br/>
+		I like given projects and making my own programs. I have a bunch of ideas on making programs. <br/>
+ 		I also want to work on on my own schedule. My goal is to be the best at what I do.
+	</p>
+	<hr>
+	<footer> <p> &copy; Copyright 2016 Cody Puskas All Rights Reserved </p> </footer>
+</body>
+</html>
