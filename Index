@@ -1,37 +1,37 @@
 <!DOCTYPE html> <!-- Cody Puskas 2/17/16 -->
 <html style="color: white">
 <head>
-<title> My Website!! </title>
+<title> Cody Puskas Portfolio</title>
 <link rel="shortcut icon" href="https://static-cdn.jtvnw.net/jtv_user_pictures/coderoma-profile_image-78145849a0c1d975-150x150.png" type = "image/png">
 <link type="text/css" rel="stylesheet" href="stylesheet.css"> 
 </head>
 <body>
-	<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/coderoma-profile_image-78145849a0c1d975-150x150.png" alt="HTML5 Icon" style="width:168px;height:168px;">
-	<h2> Cody Puskas </h2>
+	<h1 style="background-color:black; color:#33ccff"> Cody Puskas </h1>
+	<hr>
+	<!-- <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/coderoma-profile_image-78145849a0c1d975-150x150.png" alt="HTML5 Icon" style="width:168px;height:168px;"> -->
+	<nav> 
+		<h1> <a href="index.html">Home |</a> <a href="#"> About | </a>  <a href="#"> Project | </a> <a href="#"> Contact </a> </h1> 
+	</nav>
 	<hr>
 	<p>	
-		Hello, my name is Cody Puskas. I am a student at MVCTC and I am learning HTML 5 at the moment. <br/>
-		The purpose of making this website is to get my name out for colleges and companies. <br/>
-		I want to be successful in life and this could spark my career.
+		Hello, my name is Cody Puskas. I am a student at Miami Valley Career Technology Center and I am in game programming and web design. <br/>
+		I hope to do the best I can do at any job I have. I am a hard worker and will do whatever it takes <br/>
+		to get my projects done.
 	</p>
-	<hr>
 	<h2> Educational Goals: </h2> <br/>
 	<p> 
-		I want to futher my knowledge in learning different computer languages so... <br/>
-		2 long term educational goals that I have planned are: <br/>
-		Go to Sinclair Community College and get my general education done. <br/>
-		Transfer to Wright State or Miami and graduate with a Bachelors in <br/>
-		computer science  (WSU) or Sofware Engineering (MU).
+		Two S.M.A.R.T. educational goals of mine are to go to a 4 year college. And earn a masters or bachelors degree.<br/>
+		To help me achieve these goals, I went to Miami Valley Career Technology Center to learn more about computer languages <br/>
+		and to further my education to help be successful in life. I want to further my education either at Miami University <br/>
+		or Wright State University to earn a bachelors or masters in Computer Science (WSU) or Software Engineering (MU).
+		
 	</p>
-	
-	<hr>
 	<h2> Employment Goals: </h2> <br/>
 	<p>
-		Learning different computer languages will be a benefit my employment goals because <br/>
-		I could be able to make a lot of different programs using different languages. <br/>
-		I want to work for a company that gives me a project to work on. <br/>
-		I like given projects and making my own programs. I have a bunch of ideas on making programs. <br/>
- 		I also want to work on on my own schedule. My goal is to be the best at what I do.
+		Two S.M.A.R.T. employment goals that I have set for myself are work hard at whatever challenges me and <br/>
+		to help the technological field grow. I want to be employed in a positive enviroment because I am <br/>
+		a very positive person. I like working in groups and I would like being challenged with big projects. <br/>
+		I want to have a successful future so I will also help others be successful on the way.
 	</p>
 	<hr>
 	<footer> <p> | &copy; Copyright 2016 Cody Puskas All Rights Reserved | codmanfcsoccer@gmail.com | </p> </footer>
