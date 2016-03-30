@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Projects</title>
+<meta charset="UTF-8">
+<link rel="shortcut icon" href="https://static-cdn.jtvnw.net/jtv_user_pictures/coderoma-profile_image-78145849a0c1d975-150x150.png" type = "image/png">
+<link type="text/css" rel="stylesheet" href="stylesheet.css"> 
+<link type="text/css" rel="printstyles" href="printstyles.css" media="print">
+</head>
+<body>
+	<h1>Cody Puskas</h1>
+	<nav> 
+		<ul>
+		<li><a href="index.html">Home</a></li>
+		<li> <a href="aboutme.html">About Me</a></li>
+		<li> <a href="contact.html">Contact</a></li>
+		<li class="dropdown">  <a href="project.html" class="active">Projects</a>	
+			<ul class="dropdown-content">
+				<li><a href="c++.html">C++ Projects</a></li>
+				<li><a href="java.html">Java Projects</a></li>
+				<li><a href="otherProjects.html">Other Projects</a></li>
+			</ul></li>
+		<li>  <a href="bpa.html">BPA</a></li>
+		<li>  <a href="badgesEarned.html">Badges Earned</a></li>
+		<li>  <a href="discussionBoard.html">Discussion Forum/Board </a></li>
+		</ul>
+	</nav>
+	<section>
+		<div id="left-side">
+		<article>
+			<h2> My Best Projects </h2>
+			<table>
+				<tr>
+					<th> My Projects </th>
+					<th> Description </th>
+				</tr>
+				<tr>
+					<td>Body Mass Index Calculator</td>
+					<td>The body mass index(BMI) calculator first asks for your height(inches) and weight(pounds). Then the calculator converts<br/>
+						inches into meters and pounds into kilograms. From those calculations, it will tell you your BMI and if your are under weight, <br/>
+						optimal weight, or over weight. After all of these calculations, the program asks you if your are a male or female.After the <br/>
+						users input if they are male or female, it will then ask you if you are an active person meaning if you excersise daily or if you <br/>
+						are inactive. From the input of the user, the program will output the calculated caloric intake daily recommended for them. <br/>
+						I am very proud of this program and plan on making more like this for people to use at home. This project was more serious than <br/> 
+						any other project I have done. I put many hours into making this program. I wouldn't change anything to it. </td>
+				</tr>
+				<tr>
+					<td>Google Map API</td>
+					<td>Check out the other projects page. It has an API of Google Maps on there.</td>
+				</tr>				
+				<tr>
+					<td> Other Projects on the way </td>
+					<td> I have many other projects I have done. I will have them uploaded with a description and name soon. :) </td>
+				</tr>
+			</table>
+		</article>
+		</div>
+		<div id="right-side">
+		<article class="clear">
+			<h2> Body Mass Index Calculator </h2>
+			<img src="bmiworking.PNG" alt="Body Mass Index Calculator" height="300" width="600">
+			<p>
+				The image to the left is an example of my BMI calculator working. Those numbers are examples to show you that my it runs smoothly.
+				My body mass index calculator can calculate your BMI. If you need to calculate that, download the program 
+				<a href="projects/bmi.zip">here</a>. It takes about 3 minutes to do so hopefully it wont waste your time.
+			</p>
+		</article>
+		</div>
+	</section>
+	<footer><h4> | &copy; Copyright 2016 Cody Puskas All Rights Reserved | codmanfcsoccer@gmail.com | 3/23/16 |</h4> </footer>
+</body>
+</html>
