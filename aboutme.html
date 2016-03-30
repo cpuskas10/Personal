@@ -2,24 +2,42 @@
 <html>
 <head>
 <title>About me</title>
+<meta charset="UTF-8">
 <link rel="shortcut icon" href="https://static-cdn.jtvnw.net/jtv_user_pictures/coderoma-profile_image-78145849a0c1d975-150x150.png" type = "image/png">
 <link type="text/css" rel="stylesheet" href="stylesheet.css"> 
+<link type="text/css" rel="printstyles" href="printstyles.css" media="print">
 </head>
+<style type="text/css">
+	#imgalign
+	{
+		float:left;
+		margin-left:3%;
+		margin-bottom:5px;
+	}
+</style>
 <body>
-	<h1 style="color:#33ccff">Cody Puskas</h1>
-	<hr>
-	<!-- <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/coderoma-profile_image-78145849a0c1d975-150x150.png" alt="HTML5 Icon" style="width:168px;height:168px;"> -->
-	<div class="nav">
+	<h1>Cody Puskas</h1>
 	<nav> 
-		<a href="index.html">Home</a> | <a href="aboutme.html">About Me</a> | <a href="contact.html">Contact</a> | <a href="c++.html">C++ Projects</a> | <a href="java.html">Java Projects</a> | 
-		<a href="bpa.html">BPA</a> | <a href="otherProjects.html">Other Projects</a> | <a href="badgesEarned.html">Badges Earned</a> <br/> | <a href="discussionBoard.html">Discussion Forum/Board </a>
+		<ul>
+		<li><a href="index.html">Home</a></li>
+		<li> <a href="aboutme.html" class="active">About Me</a></li>
+		<li> <a href="contact.html">Contact</a></li>
+		<li class="dropdown">  <a href="project.html">Projects</a>	
+			<ul class="dropdown-content">
+				<li><a href="c++.html">C++ Projects</a></li>
+				<li><a href="java.html">Java Projects</a></li>
+				<li><a href="otherProjects.html">Other Projects</a></li>
+			</ul></li>
+		<li>  <a href="bpa.html">BPA</a></li>
+		<li>  <a href="badgesEarned.html">Badges Earned</a></li>
+		<li>  <a href="discussionBoard.html">Discussion Forum/Board </a></li>
+		</ul>
 	</nav>
-	</div>
-	<hr>
+	<section>
 		<article>
-		<h2 style="color:white; border:solid; border-color:white; background-color:#33ccff">About Me</h2>
-			<img src="cpuskas.png" alt="Cody Puskas" height="150" width="150">
-			<hr>
+		<h2>About Me</h2>
+			<img src="cpuskas.png" alt="Cody Puskas" height="150" width="150" id="img-rotate">
+		<div class="right-side">
 			<p> 
 				Hi, my name is Cody Puskas and I am 16 years old. Before I came to Miami Valley Career Technology 
 				Center, I went to Brookville High School. At Brookville, I will have a graduating class of about
@@ -31,13 +49,20 @@
 			 	learning computer code, I have always had a drive to pursue that career and is that is what
 			 	I plan to do.
 			</p>
+		</div>
+		</article>
+	
+		<article class="clear">
 			<hr>
-			<img src="wordle.jpeg" alt="My wordle" height="200" width="200">
+			<img src="wordle.jpeg" alt="My wordle" height="200" width="200" id="img-effectscale">
+			<div class="right-side">
 			<p>
 				This is a wordle that I created myself. All of these words roughly describe what I love to do and characteristics about myself.
+				Hover over the picture if you can't see the words very well.
 			</p>
+			</div>
 		</article>
-<hr>
-<footer> <p> | &copy; Copyright 2016 Cody Puskas All Rights Reserved | codmanfcsoccer@gmail.com | 3/3/16 |</p> </footer>
+	</section>
+	<footer><h4> | &copy; Copyright 2016 Cody Puskas All Rights Reserved | codmanfcsoccer@gmail.com | 3/23/16 |</h4> </footer>
 </body>
 </html>
