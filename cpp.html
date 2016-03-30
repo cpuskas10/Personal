@@ -2,23 +2,33 @@
 <html>
 <head>
 <title>My C++ Projects</title>
+<meta charset="UTF-8">
 <link rel="shortcut icon" href="https://static-cdn.jtvnw.net/jtv_user_pictures/coderoma-profile_image-78145849a0c1d975-150x150.png" type = "image/png">
 <link type="text/css" rel="stylesheet" href="stylesheet.css"> 
+<link type="text/css" rel="printstyles" href="printstyles.css" media="print">
 </head>
 <body>
-	<hr>
-	<h1 style="color:#33ccff">Cody Puskas</h1>
-	<hr>
-	<!-- <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/coderoma-profile_image-78145849a0c1d975-150x150.png" alt="HTML5 Icon" style="width:168px;height:168px;"> -->
-	<div class="nav">
+	<h1>Cody Puskas</h1>
 	<nav> 
-		<a href="index.html">Home</a> | <a href="aboutme.html">About Me</a> | <a href="contact.html">Contact</a> | <a href="c++.html">C++ Projects</a> | <a href="java.html">Java Projects</a> | 
-		<a href="bpa.html">BPA</a> | <a href="otherProjects.html">Other Projects</a> | <a href="badgesEarned.html">Badges Earned</a> <br/> | <a href="discussionBoard.html">Discussion Forum/Board </a>
+		<ul>
+		<li><a href="index.html">Home</a></li>
+		<li> <a href="aboutme.html">About Me</a></li>
+		<li> <a href="contact.html">Contact</a></li>
+		<li class="dropdown">  <a href="project.html" class="active">Projects</a>	
+			<ul class="dropdown-content">
+				<li><a href="c++.html">C++ Projects</a></li>
+				<li><a href="java.html">Java Projects</a></li>
+				<li><a href="otherProjects.html">Other Projects</a></li>
+			</ul></li>
+		<li>  <a href="bpa.html">BPA</a></li>
+		<li>  <a href="badgesEarned.html">Badges Earned</a></li>
+		<li>  <a href="discussionBoard.html">Discussion Forum/Board </a></li>
+		</ul>
 	</nav>
-	</div>
-	<hr>
+	<section>
+		<div id="left-side">
 		<article>
-			<h2 style="color:white; border:solid; border-color:white; background-color:#33ccff"> My C++ Projects </h2>
+			<h2> My C++ Projects </h2>
 			<table>
 				<tr>
 					<th> My Projects </th>
@@ -47,27 +57,29 @@
 				</tr>
 			</table>
 		</article>
+		</div>
+		<div id="right-side">
 		<article>
-			<h2 style="color:white; border:solid; border-color:white; background-color:#33ccff"> Adventure Game </h2>
-			<img src="working.PNG" alt="Adventure Game">
-			<p style="float:right; position:relative; margin-right:300px; border-style:solid; border-color:#33ccff">
-				My adventure game is a short and fun game to play. <br/>
-				If you want to relieve some stress, click <a href="projects/adventureGame.zip">here</a>. It will <br/>
-				take about 5 minutes to complete the game. There is <br/>
-				only one way to win. Good luck, have fun.
+			<h2> Adventure Game </h2>
+			<img src="working.PNG" alt="Adventure Game" height="300" width="600">
+			<p>
+				The image to the left is an example of my adventure game running. The game has some still has some bugs so don't panic if something
+				 doens't work right.It is a short and fun game to play. 
+				If you want to relieve some stress, click <a href="projects/adventureGame.zip">here</a>. It will take about 5 minutes to 
+				complete the game. There is only one way to win. Good luck, have fun.
 			</p>
 		</article>
-		<article>
-			<h2 style="color:white; border:solid; border-color:white; background-color:#33ccff"> Body Mass Index Calculator </h2>
-			<img src="bmiworking.png" alt="Body Mass Index Calculator">
-			<p style="float:right; position:relative; margin-right:350px; border-style:solid; border-color:#33ccff">
-				My body mass index calculator can calculate your <br/>
-				BMI. If you need to calculate that, download the <br/>
-				program <a href="projects/bmi.zip">here</a>. It takes about 3 minutes to do so <br/>
-				hopefully it wont waste your time.
+		<article class="clear">
+			<h2> Body Mass Index Calculator </h2>
+			<img src="bmiworking.PNG" alt="Body Mass Index Calculator" height="300" width="600">
+			<p>
+				The image to the left is an example of my BMI calculator working. Those numbers are examples to show you that my it runs smoothly.
+				My body mass index calculator can calculate your BMI. If you need to calculate that, download the program 
+				<a href="projects/bmi.zip">here</a>. It takes about 3 minutes to do so hopefully it wont waste your time.
 			</p>
 		</article>
-	<hr>
-	<footer> <p> | &copy; Copyright 2016 Cody Puskas All Rights Reserved | codmanfcsoccer@gmail.com | 3/3/16 |</p> </footer>
+		</div>
+	</section>
+	<footer><h4> | &copy; Copyright 2016 Cody Puskas All Rights Reserved | codmanfcsoccer@gmail.com | 3/23/16 |</h4> </footer>
 </body>
 </html>
